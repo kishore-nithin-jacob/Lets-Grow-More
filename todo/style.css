@@ -1,0 +1,95 @@
+/* GLOBAL CSS */
+
+*{
+    font-family: 'Great Vibes', cursive;
+}
+
+/* CUSTOM CSS */
+
+body{
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+h1{
+    color: #abefef;;
+    text-align: center;
+    font-size: 50px;
+}
+
+#to-do{
+    width: 450px;
+    padding: 20px 30px;
+    border-radius: 25px 10px 10px 25px;
+    border: none;
+    background-color: #abefefd4;
+    margin: 0px 10px;
+}
+
+#add-task{
+    padding: 20px 15px;
+    width: 100px;
+    background-color: #abefefd4;
+    border: none;
+    border-radius: 10px;
+}
+
+#main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.paraText{
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+    margin: 20px 15px;
+    width: 400px;
+    font-size: 20px;
+    color: #abefefd4;
+}
+
+.strikeContainer{
+    padding: 5px 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #abefefd4;
+    font-size: 20px;
+}
+
+.delContainer{
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #abefefd4;
+    font-size: 20px;
+}
+
+/*  Placeholders  */
+    /* General placeholders */
+    ::placeholder {
+        font-size: 20px;
+}
+    /* Edge placeholders */
+    ::-webkit-input-placeholder {
+        font-size: 20px;
+}
+    /* Internet explorer placeholders */
+    :-ms-input-placeholder {
+        font-size: 20px;
+}
+
+input[type=text]{
+    font-size: 20px;
+}
