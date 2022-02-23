@@ -1,0 +1,54 @@
+* {
+  font-family: "Sacramento", cursive;
+  font-size: 18px;
+}
+#userDetailsContainer {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#userDetails {
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #fff2e1;
+  margin: 20px 5px;
+}
+img {
+  width: 200px;
+}
+#section1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff2e1;
+  margin: 0px;
+  padding: 20px;
+}
+input[type="button"] {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: #f8d09b;
+  font-weight: bold;
+}
+span {
+  font-weight: bold;
+}
+#credits {
+  text-align: right;
+  margin: 20px;
+}
+#name {
+  text-align: center;
+  background-color: #f8d09b;
+  padding: 5px;
+}
+#email {
+  text-align: center;
+}
+@media (min-width: 1000px) {
+  #userDetailsContainer {
+    margin: 10px 150px;
+  }
+}
