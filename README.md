@@ -1,2 +1,1 @@
-To do list:
-I used HTML,CSS and JS to do this project.
+This repo contains the task, whick I've done for the tasks completion of LetsGrowMore - VIP Feb, 2022
