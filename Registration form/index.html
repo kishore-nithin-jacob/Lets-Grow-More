@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 style="text-align: center;"> Registration Form </h1>
+    <!-- Input boxes -->
+    <form action="">
+        <div class="flexStyle">
+            <label for="name"> Name </label>
+            <input type="text" class="inputStyle" id="nameID" placeholder="Your name here!" />
+        </div>
+        <div class="flexStyle">
+            <label for="email"> Email </label>
+            <input type="email" class="inputStyle" id="emailID" placeholder="Your email here!" />
+        </div>
+        <div class="flexStyle">
+            <label for="imgLink"> Image </label>
+            <input type="url" class="inputStyle" id="imgID" placeholder="Your image link here!" />
+        </div>
+        <div class="flexStyle">
+            <input type="button" value="Enroll" onclick="insertData()"/> 
+            <input type="reset" value="Reset" />
+        </div>
+    </form>
+    
+    <div id="display"></div>
+
+    <!-- Custom JS -->
+    <script src="./script.js"></script>
+</body>
+</html>
