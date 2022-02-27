@@ -1,0 +1,35 @@
+*{
+    font-family: 'Poiret One', cursive;
+}
+input[type="button"]{
+    padding: 10px 40px;
+    background-color: #cdc190;
+    border: none;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 100px;
+}
+input[type="text"]{
+    width: 300px;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #cdc190a1;
+}
+table{
+    text-align: center;
+    margin: 50px auto;
+    width: 500px;
+    border: 1px dotted #98873a;
+    border-radius: 20px;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    color: #ab9335;
+}
+input[type="button"]:hover{
+    background-color: #cdc190ba;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculator </title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1> Calculator - Task 4 </h1>
+    <table>
+        <tr>
+            <td colspan="3"> <input type="text" id="result" />  </td>
+            <td> <input type="button" value="C" onclick="empty()" /> </td>
+        </tr>
+        <tr>
+            <td> <input type="button" value="1" onclick="displayBar('1')" /> </td>
+            <td> <input type="button" value="2" onclick="displayBar('2')" /> </td>
+            <td> <input type="button" value="3" onclick="displayBar('3')" /> </td>
+            <td> <input type="button" value="/" onclick="displayBar('/')" /> </td>
+        </tr>
+        <tr>
+            <td> <input type="button" value="4" onclick="displayBar('4')" /> </td>
+            <td> <input type="button" value="5" onclick="displayBar('5')" /> </td>
+            <td> <input type="button" value="6" onclick="displayBar('6')" /> </td>
+            <td> <input type="button" value="-" onclick="displayBar('-')" /> </td>
+        </tr>
+        <tr>
+            <td> <input type="button" value="7" onclick="displayBar('7')" /> </td>
+            <td> <input type="button" value="8" onclick="displayBar('8')" /> </td>
+            <td> <input type="button" value="9" onclick="displayBar('9')" /> </td>
+            <td> <input type="button" value="+" onclick="displayBar('+')" /> </td>
+        </tr>
+        <tr>
+            <td> <input type="button" value="." onclick="displayBar('.')" /> </td>
+            <td> <input type="button" value="0" onclick="displayBar('0')" /> </td>
+            <td> <input type="button" value="=" onclick="result()" /> </td>
+            <td> <input type="button" value="*" onclick="displayBar('*')" /> </td>
+        </tr>
+    </table>
+
+    <!-- Custom JS -->
+    <script src="./script.js"></script>
+</body>
+</html>
